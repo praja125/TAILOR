@@ -1,0 +1,347 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*header style*/
+
+.header{
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+}
+.logo{
+    padding-right: 550px;
+    padding-top: 5px;
+}
+.navigation ul{
+    display: flex;
+}
+.navigation ul a:hover{
+    color: #BE9278;
+}
+.navigation ul li{
+    list-style-type: none;
+    padding-top: 30px;
+}
+.navigation ul a{
+    text-decoration: none;
+    color: #101A31;
+    font-weight: 600;
+    padding: 28px 25px;
+    font-size: 20px;
+}
+.btn button{
+    height: 90px;
+    width: 200px;
+    background-color: #BE9278;
+    color: white;
+    border: 1px solid #BE9278;
+}
+.btn{
+    margin-left: 120px;
+    margin-right: -90px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.header-more{
+    background-image: url(https://preview.colorlib.com/theme/tailor/assets/img/hero/h1_hero.png.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.header-backgorund{
+    background-color: #101a3199;
+    display: flex;
+}
+.text{
+    padding-left: 200px;
+    padding-top: 185px;
+}
+.text h1{
+    color: white;
+    font-size: 76px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.text p{
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+    padding-top: 35px;
+    font-family: "Montserrat", sans-serif;
+}
+.btn-one button{
+    width: 154px;
+    height: 60px;
+    background-color: #b6876b;
+    border: 1px solid #b6876b;
+    color: whitesmoke;
+    margin-top: 60px;
+}
+.img{
+    height: 50%;
+    padding-top: 110px;
+    padding-left: 200px;
+}
+
+/*main style*/
+/*main section one*/
+
+.main-one{
+    width: 100%;
+}
+.one{
+    display: flex;
+    padding-left: 175px;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    justify-items: center;
+}
+.one h1{
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.one h1:hover{
+    color: #b6876b;
+}
+.one p{
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+.one-a{
+    padding-left: 65px;
+}
+.zoom:hover{
+    transform: scale(1.1);
+    -ms-transform:scale(1.8);
+    -webkit-animation: calc(1.4);
+}
+.btn-a button{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: #BE9278;
+}
+.btn-a button:hover{
+    background-color: transparent;
+    color: #b6876b;
+    border: 1px solid #b6876b;
+}
+.internal{
+    display: flex;
+}
+
+/*main section two*/
+
+.main.two{
+    width: 100%;
+}
+.tailor-offers{
+    background-image: url(https://preview.colorlib.com/theme/tailor/assets/img/gallery/visit_bg.png.webp);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 530px;
+    width: 40%;
+    margin: 200px 0;
+}
+.tailor-detail{
+    background: #f5d2c2;
+    height: 700px;
+    width: 670px;
+    background-position: center center;
+    margin: 130px 0;
+}
+.tailor-two{
+    padding-left: 170px;
+    display: flex;
+}
+.tailor-detail h1{
+    font-size: 56px;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 22px;
+    padding-top: 100px;
+    padding-left: 100px;
+    color: #010A44;
+}
+.tailor-detail p{
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 100px;
+    color: #010A44;
+}
+.tailor-detail pre{
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 100px;
+    color: #010A44;
+}
+.tailor-detail button{
+    width: 175px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: #b6876b;
+    color: white;
+    border: 1px solid #b6876b;
+}
+
+/*main sections three*/
+
+.categories-three{
+    width: 100%;
+}
+.three{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.three h1{
+    font-size: 53px;
+    display: block;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.three p{
+    color: #101A31;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cat-three{
+    display: flex;
+}
+.categories{
+    padding: 20px;
+    height: 150px;
+    margin-left: 75px;
+    width: 250px;
+}
+.categories h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 19px;
+    display: block;
+}
+.categories p{
+    color: #101A31;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*main section fourth*/
+
+.main-video{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://preview.colorlib.com/theme/tailor/assets/img/gallery/video-bg.png.webp);
+    height: 800px;
+}
+
+
+/*main secion fifth*/
+
+.founder{
+    width: 100%;
+}
+
+.founder-text img{
+    margin-left: 400px;
+}
+.founder-text p{
+    text-align: center;
+    padding: 0px 500px;
+}
+.founder-about{
+    display: flex;
+    padding: 42px 550px;
+}
+.founder-info{
+    padding-top: 40px;
+}
+
+/*main secion sixth*/
+
+.follows{
+    width: 100%;
+    padding-bottom: 75px;
+}
+.follows-img{
+    display: flex;
+    padding-left: 150px;
+    padding-top: 35px;
+}
+.f-img{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.f-img img:hover{
+    background-color: #010a4485;
+}
+
+/*footer*/
+
+.footer{
+    width: 100%;
+    height: 578px;
+    background-image: url(https://preview.colorlib.com/theme/tailor/assets/img/gallery/footer-bg.png.webp);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.footer-map{
+    padding-top: 75px;
+}
+.footer-text{
+    padding-left: 10px;
+    padding-top: 60px;
+}
+.footer-text p{
+    color: #fff;
+    font-size: 16px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.footer-text a{
+    text-decoration: none;
+    color: #BE9278;
+    padding-bottom: 10px;
+}
+.footer-text li{
+    list-style-type: none;
+}
+.num{
+    font-size: 26px;
+    font-weight: 400;
+}
+.footer-title{
+    padding-left: 30px;
+    padding-top: 60px;
+}
+.footer-title h4{
+    color: #BE9278;
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.footer-title li{
+    list-style-type: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-title li:hover{
+    text-decoration: underline;
+    color: #BE9278;
+}
